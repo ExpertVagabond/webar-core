@@ -1,5 +1,5 @@
 {
-  "name": "@psmedia/webar-core",
+  "name": "@purplesquirrel/webar-core",
   "version": "0.1.0",
   "description": "Shared WebAR components, adapters, and shaders — open-source replacements for 8th Wall SDK",
   "type": "module",
@@ -14,7 +14,15 @@
     "lint": "eslint src/",
     "test": "echo 'No tests yet'"
   },
-  "keywords": ["webar", "ar", "aframe", "three.js", "mindar", "mediapipe", "webxr"],
+  "keywords": [
+    "webar",
+    "ar",
+    "aframe",
+    "three.js",
+    "mindar",
+    "mediapipe",
+    "webxr"
+  ],
   "author": "Purple Squirrel Media",
   "license": "MIT",
   "peerDependencies": {
