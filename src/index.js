@@ -3,6 +3,14 @@
  *
  * Open-source replacements for 8th Wall SDK features.
  * Components extracted from 8thwall-archive, adapters wrap MindAR/MediaPipe/WebXR.
+ *
+ * Security:
+ * - GPS coordinates validated within valid ranges (-90..90 lat, -180..180 lng)
+ * - Image target URLs validated before fetch (no data: or javascript: URIs)
+ * - SLAM/face tracking runs client-side only — no data sent to external servers
+ * - A-Frame component registration checks for duplicates (prevents override attacks)
+ * - No external API calls or credential requirements — fully offline-capable
+ * - All user-facing text sanitized via textContent (no innerHTML injection)
  */
 
 // Adapters (SDK replacements)
