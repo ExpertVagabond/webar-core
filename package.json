@@ -23,7 +23,7 @@
     "mediapipe",
     "webxr"
   ],
-  "author": "Purple Squirrel Media",
+  "author": "Matthew Karsten <matthewkarstenconnects@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "three": ">=0.147.0"
